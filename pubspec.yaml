@@ -1,0 +1,53 @@
+name: result_vault
+description: "Result Vault - store semester results, backlogs, and achievements offline."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+# ================= DEPENDENCIES =================
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.2.3
+  file_picker: ^8.0.5
+  path_provider: ^2.1.4
+  flutter_pdfview: ^1.3.2
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  share_plus: ^10.0.2
+  cupertino_icons: ^1.0.8
+
+# ================= DEV DEPENDENCIES =================
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+# ================= APP ICON CONFIG =================
+flutter_icons:
+  android: true
+  ios: false
+  image_path: assets/icon/app_icon.png
+
+# ================= SPLASH SCREEN CONFIG =================
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#121212"
+  image: assets/icon/app_icon.png
+  image_dark: assets/icon/app_icon.png
+  android: true
+  ios: false
+
+# ================= FLUTTER CONFIG =================
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/app_icon.png
