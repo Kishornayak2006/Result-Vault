@@ -1,6 +1,6 @@
 # 📚 Result Vault
 
-![Banner](Screenshots/Result Vault.png)
+![Banner](Screenshots/logo.png)
 
 ### 📱 Offline Academic Record Manager Built with Flutter
 
