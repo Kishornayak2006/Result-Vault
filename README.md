@@ -76,7 +76,7 @@ Download the latest APK from the **Releases** section.
 
 ## 👨‍💻 Developed By
 
-**Kishu**
+**Kishor**
 
 ---
 
